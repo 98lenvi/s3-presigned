@@ -23,6 +23,7 @@ Support for two types of operation is provided
 
 the following Endpoint is for upload
 
+
 `
 GET 127.0.0.1:8080/uploadFile?myKey=''&mimeType''
 `
@@ -32,6 +33,7 @@ GET 127.0.0.1:8080/uploadFile?myKey=''&mimeType''
 
 ### Response
 The URL will be sent in the response, on which you'd perform a `PUT` call, where the header would be as follows
+
 `
 headers: { 'Content-Type': 'MIME_TYPE' },
 `
