@@ -2,13 +2,11 @@
 
 ## How to run ?
 
-`
-git clone https://github.com/98lenvi/s3-presigned.git
+`git clone https://github.com/98lenvi/s3-presigned.git`
 
-cd ./s3-presigned
+`cd ./s3-presigned`
 
-node index
-`
+`node index`
 
 The server will be running at 127.0.0.1:8080 locally. You will need to add the following in the index file
 
