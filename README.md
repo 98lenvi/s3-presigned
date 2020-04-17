@@ -2,9 +2,11 @@
 
 ## How to run ?
 
-`javascript
+`
 git clone https://github.com/98lenvi/s3-presigned.git
+
 cd ./s3-presigned
+
 node index
 `
 
